@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login JS</title>
+
+  
+</head>
+<body>
+    
+    <form style="max-width:450px;margin:auto">
+        <div class="box box1"  > 
+          &nbsp; &nbsp; <i class="fa fa-sign-in" aria-hidden="true"> Faça seu login</i>
+          <p>Entre com suas informações de cadastro.</p>
+        <br>
+        <b>Email</b>
+        <br>
+          
+        <div class="input-icons">
+            <i class="fa fa-envelope icon">
+          </i>
+            <input class="input-field" 
+                   type="text"
+                   id="login"
+                   placeholder="Email">
+        </div>
+        <br>
+        <b>Senha</b>
+        <br>
+
+        <div class="input-icons">
+            <i class="fa fa-key icon">
+          </i>
+            <input class="input-field" 
+                   type="password"
+                   id="senha"
+                   placeholder="Password">
+        </div>
+        <input type="checkbox"> Lembre-me &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+        Esqueci minha senha
+        <br>
+        <br>
+        &nbsp;<button type="submit" onclick="logar(); return false">Entrar</button>
+        </div>
+    </form>
+
+    <img src="balão.jpg"></img>
+
+
+    <script src="scriptlogin.js"></script>
+</body>
+</html>
