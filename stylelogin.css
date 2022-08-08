@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    color: lightgray;
+    text-align: left;
+}
+
+
+
+.input-icons i {
+    position: absolute;
+    color: #898906
+}
+  
+.input-icons {
+    width: 100%;
+    color: black;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 10px;
+    color: yellow;
+    min-width: 50px;
+
+}
+  
+.input-field {
+    width: 85%;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+  
+h2 {
+    color: yellow;
+
+}
+
+button {
+    
+    
+    border-color: #898906;
+    color: black;
+    height: 50px;
+    width: 70px;
+    background-color: #898906;
+}
+
+.box {
+    width: 320px;
+    position: absolute;
+    height: 10%;
+    margin-bottom: 8px;
+    
+    
+    }
+    
+    .box1 { 
+    top: 60px;
+    left: 50px;
+    background-color: #333030;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    font-style: italic;
+    text-align: left;
+    
+    }
+
+    img {
+        position: absolute;
+        top: 0px;
+        left: 564px;
+        height: 610px;
+        width:800px;
+        
+        
+        }
+        
